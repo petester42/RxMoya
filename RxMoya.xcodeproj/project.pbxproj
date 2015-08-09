@@ -447,6 +447,7 @@
 				7C86B2281B7789CA00EA7CE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C86B2291B7789CA00EA7CE3 /* Build configuration list for PBXNativeTarget "RxMoyaTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +456,7 @@
 				7C86B22B1B7789CA00EA7CE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
