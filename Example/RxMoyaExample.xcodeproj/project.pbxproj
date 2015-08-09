@@ -27,6 +27,18 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		7C55681F1B77B14000988C03 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		7C5567ED1B77AFD000988C03 /* RxMoyaExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxMoyaExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C5567F11B77AFD000988C03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -128,6 +140,7 @@
 				7C5567E91B77AFD000988C03 /* Sources */,
 				7C5567EA1B77AFD000988C03 /* Frameworks */,
 				7C5567EB1B77AFD000988C03 /* Resources */,
+				7C55681F1B77B14000988C03 /* CopyFiles */,
 			);
 			buildRules = (
 			);
