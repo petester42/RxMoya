@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="2xr-zP-WYV">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Z2A-OQ-a0c">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
@@ -25,8 +25,38 @@
                             <outlet property="delegate" destination="2xr-zP-WYV" id="J2A-w0-A9L"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" id="AyT-rN-3EB">
+                        <barButtonItem key="leftBarButtonItem" title="Zen" id="tFX-Sc-snl">
+                            <connections>
+                                <action selector="zenPressed:" destination="2xr-zP-WYV" id="J0E-RF-s2S"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Search" id="K0f-IW-peD">
+                            <connections>
+                                <action selector="searchPressed:" destination="2xr-zP-WYV" id="xsC-Zc-wzh"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3e9-V6-xqs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1070" y="332"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="wgC-YS-669">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Z2A-OQ-a0c" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="1o8-2G-GeW">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="2xr-zP-WYV" kind="relationship" relationship="rootViewController" id="eAO-9w-AUO"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5sW-9C-Dwn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="258" y="332"/>
         </scene>
