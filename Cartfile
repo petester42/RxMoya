@@ -1,2 +1,2 @@
 github "Alamofire/Alamofire"
-github "kzaher/RxSwift" "latest-carthage/rxswift"
+github "ReactiveX/RxSwift" "latest-carthage/rxswift"
